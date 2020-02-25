@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="x5-orientation" content="portrait"/>
+    <title></title>
+    <script>
+      function setRem(pageSize) {
+          var wWidth = window.innerWidth || document.body.clientWidth || document.documentElement.clientWidth;
+          document.getElementsByTagName('html')[0].style.fontSize = wWidth / pageSize * 100 + 'px';
+      }
+      setRem(750)
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript" src="<%% VUE_APP_SOURCE_LOCATION %>/wclt/js/utils/prod/H5Utils.js"></script>
+    <script type="text/javascript" src="<%% VUE_APP_SOURCE_LOCATION %>/wclt/js/utils/prod/t6s.js"></script>
+    <script type="text/javascript" src="<%% VUE_APP_SOURCE_LOCATION %>/wclt/js/utils/prod/share.js"></script>
+    <script type="text/javascript" src="<%% VUE_APP_SOURCE_LOCATION %>/cnt0/html/qbb-utils/prod/monitor/index.js"></script>
+  </body>
+</html>
