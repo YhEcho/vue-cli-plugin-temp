@@ -15,10 +15,6 @@ new Vue({
   router,
 <%_ } _%>
 <%_ if (options.vuex) { _%>
-  store,
+  store
 <%_ } _%>
-  template: '<App/>',
-  components: {
-    App
-  }
-})
+}).$mount("#app");
