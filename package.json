@@ -2,7 +2,7 @@
   "name": "vue-cli-plugin-temp",
   "version": "0.0.1",
   "description": "vue plugin",
-  "author": "wangyinghong<wangyinghong@qbb6.com>",
+  "author": "",
   "main": "prompts.js",
   "keywords": [
     "vue",
